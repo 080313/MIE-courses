@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Forms</h2>
+
+<form>
+  Course Code:<br>
+  <input type="text" name="courseCode"><br>
+  Nickname:<br>
+  <input type="text" name="nickname"><br>
+  Professor Name:<br>
+  <input type="text" name="profName"><br>
+  Session:<br>
+  <input type="text" name="session"><br>
+  <br><br>
+
+  Level of Difficulty:<br>
+  <input type="text" name="LoD"><br>
+  Workload:<br>
+  <input type="text" name="workload"><br>
+  Intersting:<br>
+  <input type="text" name="intersting"><br>
+  Overall Rating:<br>
+  <input type="text" name="or"><br>
+</form>
+
+
+<p>Summit the form to help future students!</p>
+
+</body>
+</html>
