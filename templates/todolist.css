@@ -15,14 +15,24 @@ body {
 }
 
 .header {
-    background-color: #d64161;
+    background-color: #B0C4DE;
+    margin-bottom: 40px;
+    font-size: 80pt;
+    font-family: Times;
+    font-weight: 1000;
+    color: #001a4d;
+    text-shadow: 3px 2px #ccddff;
+}
+
+
+.Container {
+    font-family: "Courier New", Monospace;
+    width: 400pt;
+    text-align:center;
     padding: 10px;
     color: white;
-    text-align: center;
-    border-bottom: 2px solid #000000;
-    border-top: 2px solid #000000;
-    margin-bottom: 10px;
-    font-size: 20pt;
+    font-size: 25pt;
+    font-weight: 600;
 }
 
 .addtask {
@@ -33,8 +43,8 @@ body {
 }
 
 .pageframe{
-	width: 400pt;
-	text-align: left;
+	width: cover ;
+	text-align: center;
 }
 
 .add-button {
@@ -63,14 +73,14 @@ body {
 
 /* Remove margins and padding from the list */
 ul {
-    margin: 0;
+    margin: 100px;
     padding: 0;
     list-style: none;
 }
 
 /* Style the list items */
 ul li {
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
